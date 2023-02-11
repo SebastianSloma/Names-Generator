@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap');
+
 *:before,
 *:after{
     box-sizing: border-box;
@@ -18,6 +20,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem;
 }
 
 .container{
@@ -30,7 +34,7 @@ body{
 
 .container h4{
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -49,4 +53,35 @@ body{
     border-radius: 10px;
     color: #fff;
     font-size: 1.2rem;
+}
+
+.container .form button{
+    position: absolute;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: #0f2229;
+    right: 3px;
+    top: 3px;
+    cursor: pointer;
+}
+
+.container .nameBox{
+    position: relative;
+    background: #1f3841;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.container .nameBox span{
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: .3px;
+}
+.qty{
+    margin-bottom: 10px;
 }
